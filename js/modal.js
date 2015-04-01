@@ -235,6 +235,7 @@
   // these following methods are used to handle overflowing modals
 
   Modal.prototype.handleUpdate = function () {
+    console.log('handleUpdate', this);
     this.adjustDialog()
   }
 
